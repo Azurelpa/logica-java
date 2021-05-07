@@ -11,18 +11,26 @@ Suponha um programa que solicita ao usuario dois numeros e depois mostra a media
             *** SAIDA DE DADOS ***
             Media aritmetica: 4.5
  */
+import java.util.Scanner;
+
 public class CalculaMediaAritmetica {
 
     public static void main(String[] args){
-        //float
+
+        Scanner scanner = new Scanner(System.in);//System.in faz captura de dados no terminal ate o momento do Enter
+
         // *** ENTRADA DE DADOS ***
-        double primeiroNumero = 3;
-        double segundoNumero = 6;
+        System.out.println("Digite o primeiro valor");
+        double primeiroNumero = scanner.nextDouble();
+
+        System.out.println("Digite o segundo valor");
+        double segundoNumero = scanner.nextDouble();
 
         // *** PROCESSAMENTO ***
         double resultado = (primeiroNumero + segundoNumero) / 2;
 
         // *** SAIDA DE DADOS ***
         System.out.println("O resultado e " + resultado);
+
     }
 }

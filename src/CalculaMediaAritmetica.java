@@ -17,7 +17,7 @@ public class CalculaMediaAritmetica {
 
     public static void main(String[] args){
 
-        Scanner scanner = new Scanner(System.in);//System.in faz captura de dados no terminal ate o momento do Enter
+        Scanner scanner = new Scanner(System.in);//System.in faz captura de dados no terminal ate o momento do Enter.
 
         // *** ENTRADA DE DADOS ***
         System.out.println("Digite o primeiro valor");

@@ -15,7 +15,7 @@ public class Exercicio01 {
 
         System.out.println("Products: ");
         System.out.printf("%s, which is %.2f%n %s, which price is %.2f%n", product1, prince1, product2, price2);
-        System.out.println();
+        System.out.println(); // É possível utilizar para printar e usar como quebra de linhas mesmo sem nenhuma string
         System.out.printf("Record: %d years old, code %d and gender: %s ", age, code, gender );
         System.out.println();
         System.out.printf("Measue with eight decimal places: %.8f", measure);

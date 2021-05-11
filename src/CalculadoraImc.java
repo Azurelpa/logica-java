@@ -1,8 +1,9 @@
+import java.util.Locale;
 import java.util.Scanner;
-
 public class CalculadoraImc {
 
     public static void main(String[] args){
+        Locale.setDefault(Locale.US);
 
         Scanner scanner = new Scanner(System.in);
 
@@ -18,10 +19,10 @@ public class CalculadoraImc {
 
         // PROCESSAMENTO
         double imc = peso/altura/altura;
-        String valoresConcatenados = nome+", seu IMC é "+imc;
+        String valoresConcatenados = ", seu IMC é "+imc;
 
         // SAIDA DE DADOS
-        System.out.println(valoresConcatenados);
+        printf("%s %d %f %f",nome, altura, peso, valoresConcatenados);
         scanner.close();
     }
 

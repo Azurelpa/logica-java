@@ -18,5 +18,11 @@ public class FuncoesMatematicas {
         System.out.println(x + " elevado a " + y + " = " + A);
         System.out.println(x + " elevado ao quadrado = " + B);
         System.out.println("5 elevado ao quadrado = " + C);
+
+        A = Math.abs(y);
+        B = Math.abs(z);
+        System.out.println("Valor absoluto de " + y + " = " + A);
+        System.out.println("Valor absoluto de " + z + " = " + B);
+
     }
 }

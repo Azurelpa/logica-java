@@ -8,7 +8,7 @@ public class CalculaAreaTrapezio {
         b = 6.0;
         B = 8.0;
 
-        area = (b + B) / 2.0 * h;
+        area = (b + B) / 2.0 * h; // Necessário fazer casting quando o computador não reconhece ou muda algo
 
 
         System.out.println(area);

@@ -24,34 +24,22 @@ public class Ex1010 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
+        
+        int cod1 = scanner.nextInt();
+        
+        int num1 = scanner.nextInt();
+        
+        double valorUni = scanner.nextDouble();
+        
+        int cod2 = scanner.nextInt();
+        
+        int num2 = scanner.nextInt();
+        
+        double valorUni2 = scanner.nextDouble();
 
-        //ATRIBUINDO TIPO E VARIAVEIS
+        double total = num1 * valorUni + num2 * valorUni2;
 
-        int cod1, numPec1, cod2, numPec2;
-        double valorUni1, valorUni2;
-
-        //PEDIR INFORMACOES PECA1
-
-        cod1 = scanner.nextInt();
-        numPec1 = scanner.nextInt();
-        valorUni1 = scanner.nextDouble();
-
-        //PEDIR INFORMACOES PECA1
-
-        cod2 = scanner.nextInt();
-        numPec2 = scanner.nextInt();
-        valorUni2 = scanner.nextDouble();
-
-        //CONTA FEITA PARA PEGAR O TOTAL A PAGAR
-
-        double salario = (cod1*0+cod2*0)+(numPec1*valorUni1)+(numPec2*valorUni2);
-
-        //SAIDA COM VALOR TOTAL FORMATADO
-
-        System.out.printf("VALOR A PAGAR: R$ %.2f%n", salario);
-
-        //FECHAMENTO DO SCANNER ABERTO
-
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
         scanner.close();
     }
 }

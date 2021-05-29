@@ -1,13 +1,16 @@
 import java.util.Scanner;
 /*
 
-Uma operadora de telefonia cobra R$ 50.00 por um plano básico que
-dá direito a 100 minutos de telefone. Cada minuto que exceder a
-franquia de 100 minutos custa R$ 2.00. Fazer um programa para ler a
-quantidade de minutos que uma pessoa consumiu, daí mostrar o valor
-a ser pago.
+Ler 3 numero inteiros e em seguida mostrar o menor e caso
+de empate mostrar apenas uma vez.
 
-*/
+Entrada             Saida
+7 3 8               Menor = 3
+
+5 12 5              Menor = 5
+
+9 9 9               Menor = 9
+ */
 
 public class Menor {
     public static void main(String[] args) {

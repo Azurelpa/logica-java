@@ -1,17 +1,13 @@
+import java.util.Scanner;
+
 public class DiaSemana {
     public static void main(String[] args) {
-        int diaSemana = 2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o dia da semana");
 
-        if (diaSemana == 1) {
-            System.out.println("Domingo");
-        } else if (diaSemana == 2) {
-            System.out.println("Segunda");
-        } else if (diaSemana == 3) {
-            System.out.println("Terça");
-        } else {
-            System.out.println("Dia nao encontrado");
-        }
-        //utilização de switch com a mesma utilidade do if e diferente funcao
+        int diaSemana = scanner.nextInt();
+        String dia = "";
+        
         switch (diaSemana) {
             case 1:
                 System.out.println("Domingo");

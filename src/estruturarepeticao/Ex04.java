@@ -8,5 +8,6 @@ public class Ex04 {
             System.out.print(y);
             x = x+1;
         }
+        System.out.println("Fim");
     }
 }

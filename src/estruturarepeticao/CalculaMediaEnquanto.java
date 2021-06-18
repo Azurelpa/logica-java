@@ -22,7 +22,7 @@ public class CalculaMediaEnquanto {
         if (count > 0) {
             double media = (double) soma / count;
             System.out.printf("%.2f%n", media);
-        }else{
+        } else {
             System.out.printf("Impossivel de calcular");
         }
 
